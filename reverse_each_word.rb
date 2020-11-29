@@ -5,6 +5,7 @@ def reverse_each_word(string)
     string = word.reverse
     new_array << string
   end
+  puts new_array.join(' ')
   new_array.join(" ")
 end
 
@@ -14,3 +15,5 @@ end
 #   end
 #   array.join(" ")
 # end
+
+reverse_each_word('dia are mere')
